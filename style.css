@@ -1,0 +1,82 @@
+:root {
+    color-scheme: dark;
+}
+body{
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.main{
+    padding: auto;
+}
+.top{
+    background: linear-gradient(-45deg, rgb(255, 0, 0, 0.8), rgb(123, 67, 255, 0.8)),
+    url(img/Flag_of_Nauru.svg) ;
+    background-color: cover;
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight:900;
+    color: wheat;
+    padding-block: 190px;
+}
+.section{
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.question{
+    display: flex;
+}
+.h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#NauruYa{
+    width: 300px;
+    padding : 20px;
+    border-radius: 50px;
+}
+#NauruYa:hover{
+    filter: opacity(80%);
+}
+.what{
+    padding-left: 30px;
+}
+.menu-title{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.menu{
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.menu p{
+    margin: 0;
+}
+.questionh3{
+    display: flex;
+    margin-top: 20px;
+}
+.h3{
+    font-size: 19px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.li{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.restaurant{
+    font-weight: 700;
+}
+a{
+    direction: none;
+    color: yellow;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
